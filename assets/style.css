@@ -134,3 +134,18 @@ table{width:100%;border-collapse:collapse;font-size:.92rem;overflow:hidden;borde
 .table-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
 th,td{padding:12px 14px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
 th{background:var(--ink);color:#fff;font-size:.82rem;letter-spacing:.06em;text-transform:uppercase}
+
+/* ---------- ajustes finos mobile e acessibilidade ---------- */
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+@media (max-width:600px){
+ body{padding-bottom:74px}
+ .wa-float{font-size:.82rem;padding:11px 15px}
+ .map{height:260px}
+ .hero .wrap{gap:22px}
+ .card{padding:20px}
+ .contact-item{padding:18px}
+}
+@media (max-width:380px){
+ body{font-size:16px}
+ .btn{width:100%}
+}
